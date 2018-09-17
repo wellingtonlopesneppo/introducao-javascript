@@ -39,3 +39,9 @@ for (var i = 0; i < pacientes.length; i++) {
     tdImc.textContent = "Altura e/ou peso inválidos!";
   }
 }
+
+var botaoAdicionar = document.querySelector("#adicionar-paciente");
+botaoAdicionar.addEventListener("click", function() {
+  event.preventDefault();
+  console.log("Fui clicado!");
+});
